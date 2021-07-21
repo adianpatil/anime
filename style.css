@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+.title {
+  color: rgb(241, 238, 13);
+  margin-right: 100px;
+}
+
+.header{
+  top:10px;
+  color: rgb(255, 217, 4);
+}
+.question{
+  color: rgb(221, 143, 97);
+  font-size: 20px;
+}
+.container {
+background-color: rgb(247, 230, 1);
+  padding: 10px;
+  margin : 15px;
+  border-radius: 16px;
+  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: all 400ms;
+  opacity: 0.8;
+}
+body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background-image: url("7.jpg");
+
+
+ 
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+
+@media (min-width: 400px) {
+  .anime-container {
+    
+    background-color: rgb(95, 53, 34);
+  padding: 10px;
+  margin: 30px;
+  border-radius: 16px;
+  font-family: Poppins;
+display: inline-flex;
+justify-content:center;
+
+ 
+  max-width: 570px;
+  transition: all 200ms;
+  opacity: 0.75;
+}
+  }
+.anime-score {
+ color: rgb(0, 18, 32);
+}
+  .anime-type {
+color: rgb(18, 6, 37);
+  }
+  .anime-type span {
+    font-size: 30px;
+color: rgb(162, 149, 180);
+      }
+span {
+font-size: 30px;
+color: rgb(129, 155, 194);
+}
+.anime-time {
+  color: rgb(209, 223, 12);
+}
+
+.anime-container:hover .anime-image {
+  border: 5px solid rgb(171, 145, 196);
+}
+
+.anime-container:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+button{
+    background-color: rgb(25, 26, 83);
+    color:rgb(155, 167, 142);
+    box-shadow: 0px 1px 2px rgb(209, 223, 12);
+    border-radius: 8px;
+    border: none;
+    height: 33px;
+    padding: 5px;
+    font-size: 20px;
+       
+}
+
+.new-anime-name{
+    background-color: rgb(25, 26, 83);
+    color:rgb(155, 167, 142);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgb(209, 223, 12);
+    height: 30px;
+    padding: 2px 25px 2px 5px;
+    display: inline-flex;
+    justify-content: left;
+    font-size: 20px;
+
+  }
+
+  .anime-image {
+      border-radius: 8Px;
+  }
+
